@@ -43,3 +43,8 @@ Git - это быстрая распределенная система конт
 ### Полезные ссылки
 
 https://git-scm.com/docs/user-manual
+
+## Test conflict
+
+git connection
+conflict
