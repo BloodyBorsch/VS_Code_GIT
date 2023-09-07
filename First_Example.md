@@ -44,6 +44,11 @@ Git - это быстрая распределенная система конт
 
 https://git-scm.com/docs/user-manual
 
+### Команды терминала
+
+* ctrl + s ломает терминал
+* q - выходит из лога
+
 ## Test conflict
 
 Something in the way
