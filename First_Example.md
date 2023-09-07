@@ -46,5 +46,5 @@ https://git-scm.com/docs/user-manual
 
 ## Test conflict
 
-git instructions
-connections
+git transform
+return
