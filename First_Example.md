@@ -46,7 +46,4 @@ https://git-scm.com/docs/user-manual
 
 ## Test conflict
 
-git connection
-conflict
-git transform
-return
+Something in the way
