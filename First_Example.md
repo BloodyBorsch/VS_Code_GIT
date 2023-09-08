@@ -58,22 +58,18 @@ https://git-scm.com/docs/user-manual
 
 ## Создание нового репозитория.
 
-echo "# Test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/BloodyBorsch/Test.git
-git push -u origin main
+* echo "# Test" >> README.md
+* git init
+* git add README.md
+* git commit -m "first commit"
+* git branch -M main
+* git remote add origin https://github.com/BloodyBorsch/Test.git
+* git push -u origin main
 
 ## Создание репозитория с локальной версии
 
-git remote add origin https://github.com/BloodyBorsch/Test.git
-git branch -M main
-git push -u origin main 
+* git remote add origin https://github.com/BloodyBorsch/Test.git
+* git branch -M main
+* git push -u origin main 
 
 Где Test - название нового репозитория
-
-## Test conflict
-
-Something in the way
