@@ -49,6 +49,31 @@ https://git-scm.com/docs/user-manual
 * ctrl + s ломает терминал
 * q - выходит из лога
 
+# Работа с удаленным репозиторием
+
+* git clone <url-адрес репозитория> – клонирование внешнего репозитория на
+локальный ПК
+* git pull – получение изменений и слияние с локальной версией
+* git push – отправляет локальную версию репозитория на внешний
+
+## Создание нового репозитория.
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BloodyBorsch/Test.git
+git push -u origin main
+
+## Создание репозитория с локальной версии
+
+git remote add origin https://github.com/BloodyBorsch/Test.git
+git branch -M main
+git push -u origin main 
+
+Где Test - название нового репозитория
+
 ## Test conflict
 
 Something in the way
