@@ -69,6 +69,7 @@
         private void PrintResult(string[] array)
         {
             string tempWord = _msgNoResult;
+            bool tempWordExist = false;
 
             foreach (string word in array)
             {
@@ -76,10 +77,11 @@
                 {
                     tempWord = word;
                     Console.WriteLine(tempWord);
+                    tempWordExist = true;
                 }
             }
 
-            Console.WriteLine(tempWord);
+            if (!tempWordExist) Console.WriteLine(tempWord);
         }
     }
 }
